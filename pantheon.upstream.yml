@@ -4,6 +4,10 @@ web_docroot: true
 enforce_https: transitional
 php_version: 8.0
 
+# See https://pantheon.io/docs/pantheon-yml#specify-a-version-of-mariadb
+database:
+  version: 10.4
+
 drush_version: 10
 build_step: true
 protected_web_paths:
